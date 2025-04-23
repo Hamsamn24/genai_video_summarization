@@ -78,7 +78,7 @@ def turn_into_story(summary):
     return model.invoke(prompt)
 
 st.title("Hamsa - YouTube/Upload Video Summarizer Using Groq LLM")
-st.image("butterfly.png")
+st.image("ipl.png")
 
 youtube_url = st.text_input("Paste a YouTube video URL:", placeholder="https://www.youtube.com/watch?v=example")
 
